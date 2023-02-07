@@ -893,10 +893,13 @@ vendor/lib64/unnhal-acc-adreno.so|461821fa5e040623a4da8ce9c06345570057b0cc
 vendor/lib64/unnhal-acc-common.so|e37d2113f99506f1de85902a0fdee0b443342942
 vendor/lib64/unnhal-acc-hta.so|6cb1ca10aa1c82e59641d545d9f1ac7f00df8621
 vendor/lib64/unnhal-acc-hvx.so|00eb79608cb6e3f19eaf9389632fdbfa03b2df62
-
 # NFC
 vendor/lib/libsn100u_fw.so
-
+vendor/bin/hw/android.hardware.nfc@1.2-service 
+vendor/etc/init/android.hardware.nfc@1.2-service.rc 
+vendor/lib64/ese_spi_nxp.so vendor/lib64/nfc_nci_nxp.so 
+vendor/lib64/vendor.nxp.nxpese@1.0.so 
+vendor/lib64/vendor.nxp.nxpnfc@1.0.so
 # NPU
 vendor/bin/npu_launcher
 vendor/lib/libnpu.so
