@@ -896,6 +896,11 @@ vendor/lib64/unnhal-acc-hvx.so|00eb79608cb6e3f19eaf9389632fdbfa03b2df62
 
 # NFC
 vendor/lib/libsn100u_fw.so
+vendor/bin/hw/android.hardware.nfc@1.2-service 
+vendor/etc/init/android.hardware.nfc@1.2-service.rc 
+vendor/lib64/ese_spi_nxp.so vendor/lib64/nfc_nci_nxp.so 
+vendor/lib64/vendor.nxp.nxpese@1.0.so 
+vendor/lib64/vendor.nxp.nxpnfc@1.0.so
 
 # NPU
 vendor/bin/npu_launcher

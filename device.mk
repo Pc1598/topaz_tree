@@ -318,7 +318,6 @@ PRODUCT_PACKAGES += \
     Tag
 
 PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.2-service \
     android.hardware.nfc@1.2.vendor \
     android.hardware.secure_element@1.2.vendor \
     vendor.nxp.hardware.nfc@2.0-service \
